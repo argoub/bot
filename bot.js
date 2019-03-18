@@ -7,7 +7,7 @@
  */
 
 var request = require('request');
-app.set("port", (process.env.PORT || 8000));
+app.set("port", (process.env.PORT || 80));
 app.use(bodyParser.json());
 app.use(cors());
 
