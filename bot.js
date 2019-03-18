@@ -72,7 +72,7 @@ module.exports = function (app) {
     if (event.game_play.payload) {
       //
       // The variable payload here contains data set by
-       FBInstant.setSessionData()
+      // FBInstant.setSessionData()
       //
       var payload = JSON.parse(event.game_play.payload);
 
