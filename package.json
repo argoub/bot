@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Sample Node JS Instant Games Bot",
   "main": "index.js",
-  "scripts": {
-    "start": "node bot.js"
+"scripts": {
+   "start": "node bot.js"
 },
   "license":"Platform License",
   "dependencies": {
