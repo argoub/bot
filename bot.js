@@ -7,7 +7,13 @@
  */
 
 var request = require('request');
+app.set("port", (process.env.PORT || 8000));
+app.use(bodyParser.json());
+app.use(cors());
 
+app.listen(app.get("port"), function()
+{
+});
 module.exports = function (app) {
   //
   // GET /bot
